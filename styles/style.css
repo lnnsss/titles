@@ -1,0 +1,97 @@
+/*----шрифты-------------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+/*----основа-------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  background-color: inherit;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+body {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: var(--mainFont);
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 100px 0 0 0;
+}
+main {
+  width: 100%;
+  height: 100%;
+  flex: 1 1 auto;
+}
+._container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: var(--maxWidth);
+}
+button:hover {
+  filter: brightness(120%);
+}
+button:active {
+  filter: brightness(80%);
+}
+
+/*----pa1-------------------------------------------*/
+
+/* .image {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+} */
+.answer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 260px;
+  gap: 10px;
+}
+.answer input,
+.answer button {
+  width: 100%;
+  height: 20px;
+  padding: 20px 10px;
+  font-size: 20px;
+}
+.answer input {
+  border: 1px solid black;
+}
+.answer button {
+  background-color: rgb(25, 142, 25);
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nv {
+  visibility: hidden;
+}
