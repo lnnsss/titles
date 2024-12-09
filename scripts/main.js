@@ -69,6 +69,36 @@ const titles = [
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Russia-Army-OF-10-2010.svg/60px-Russia-Army-OF-10-2010.svg.png",
   },
+  {
+    title: "Рядовой",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Russia-army-private.png/55px-Russia-army-private.png",
+  },
+  {
+    title: "Ефрейтор",
+    image:
+      "https://avatars.dzeninfra.ru/get-zen_doc/4697081/pub_63d2fc452c4eb27fbc95985d_63d301884a535f2d8d538a26/scale_1200",
+  },
+  {
+    title: "Младший сержант",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Rus_serjant.png/41px-Rus_serjant.png",
+  },
+  {
+    title: "Сержант",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rus-army-serj.png/72px-Rus-army-serj.png",
+  },
+  {
+    title: "Старший сержант",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Russia-army-1994_05.png/41px-Russia-army-1994_05.png",
+  },
+  {
+    title: "Старшина",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Rus_starshina_field.svg/81px-Rus_starshina_field.svg.png",
+  },
 ];
 
 const input = document.getElementById("input");
